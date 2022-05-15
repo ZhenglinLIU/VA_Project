@@ -1,0 +1,15 @@
+name: "VA_Project"
+title: "My Website"
+description: |
+  My Website
+output_dir: "_site"
+navbar:
+  right:
+    - text: "Home"
+      href: index.html
+    - text: "About"
+      href: about.html
+  left:
+    - text: "Proposal"
+      href: proposal_1.html
+output: distill::distill_article
