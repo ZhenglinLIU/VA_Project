@@ -1,0 +1,28 @@
+---
+title: "ABOUT US"
+output: distill::distill_article
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+```
+
+<center>Candidates: 
+
+[**Li Huan**](https://www.linkedin.com/in/huan-li-ab7498124/)
+  
+[**Liu Zhenglin**](https://www.linkedin.com/in/zhenglin-liu-a86aa5219/)
+
+Students from Master of IT in Business,Singapore Management University.
+
+Mentor: 
+      
+[**Prof KAM Tin Seong**](https://faculty.smu.edu.sg/profile/kam-tin-seong-486)
+
+Full-time Faculty, SMU
+
+Associate Professor of Information Systems (Practice)
+
+
+
+

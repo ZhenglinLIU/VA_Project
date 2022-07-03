@@ -1,6 +1,7 @@
 name: "VA_Project"
 title: "Visual Analytic Project"
-
+description: |
+  Data Analytics Journey
 output_dir: "_site"
 navbar:
   logo:
@@ -8,14 +9,17 @@ navbar:
     href: https://www.rstudio.com
   search: true
   right:
-    - text: "User Guide"
-      href: about.html
-    - text: "Proposal"
+    - text: "PROPOSAL"
       href: proposal_1.html
-    - text: "App"
+    - text: "USER GUIDE"
+      href: about.html
+    - text: "APP"
       href: app.html
-    - text: "Poster"
+    - text: "POSTER"
       href: poster.html
+    - text: "ABOUT US"
+      href: us.html
     - icon: fab fa-github
       href: https://github.com/KatherineHuan/VA_Project
+      
 output: distill::distill_article
