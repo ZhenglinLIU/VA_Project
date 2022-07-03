@@ -1,7 +1,7 @@
 ---
-title: "Proposal"
+title: "Poster"
 description: |
-  A new article created using the Distill format.
+  Poster
 
 output: distill::distill_article
 ---
@@ -9,6 +9,7 @@ output: distill::distill_article
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = FALSE)
 ```
+
 
 
 

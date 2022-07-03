@@ -1,15 +1,30 @@
 name: "VA_Project"
-title: "My Website"
+title: "Visual Analytic Project"
 description: |
-  My Website
+  yml Des
 output_dir: "_site"
 navbar:
+  logo:
+    image: images/logo.png
+    href: https://www.rstudio.com
+  search: true
+#  left:
+#    - text: "Visual Analytics Project Group 11"
+#      href: index.html
   right:
-    - text: "Home"
-      href: index.html
-    - text: "About"
+    - text: "User Guide"
       href: about.html
-  left:
     - text: "Proposal"
       href: proposal_1.html
-output: distill::distill_article
+    - text: "App"
+      href: app.html
+    - text: "Poster"
+      href: poster.html
+    - icon: fab fa-github
+      href: https://github.com/KatherineHuan/VA_Project
+output:
+  html_document:
+    theme: cerulean
+    highlight: tango
+    include:
+      after_body: footer.html

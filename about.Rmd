@@ -1,5 +1,5 @@
 ---
-title: "About this site"
+title: "ISSS608 Group 11 User Guide"
 description: |
   Some additional details about the website
 ---
@@ -8,3 +8,8 @@ description: |
 knitr::opts_chunk$set(echo = FALSE)
 ```
 
+## 1. User Guide
+
+## 2. Poster
+
+## 3. App
