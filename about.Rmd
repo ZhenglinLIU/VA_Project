@@ -10,7 +10,6 @@ output:
   distill::distill_article:
     toc: true
     toc_float: true
-    code_folding: hide
 ---
 
 ```{r setup, include=FALSE}
@@ -18,7 +17,21 @@ knitr::opts_chunk$set(echo = FALSE)
 ```
 
 
-# 1. Project Overview
+# 1. Overview
+
+A detailed introduction of the projects, including background, motivation, data, tasks and related visualizations.
+
+# 2. USER GUIDE
+
+A general introduction to this website and each html document.
+
+# 3. APP
+
+
+
+# 4. POSTER
+
+# 5. ABOUT US
 
 ## 1.1 Background
 
@@ -109,7 +122,9 @@ knitr::include_graphics("C:/Users/iphone/VA_Project/images/q1_respubRevenue.jpg"
 
 **Target**
 
-Higher incomes or higher balances mean that people have more money to spend, and more a higher consumption on recreation means that are more likely to enjoy life. So, financial Health can be shown by monthly wage or  monthly total/average balance. 
+Higher incomes or higher balances mean that people have more money to spend, and a higher consumption on recreation means that people are more likely to enjoy life. So, financial Health can be shown by monthly wage or monthly total/average balance. 
+
+To better observe the financial health of this city, lorenz curve also will be used.
 
 **Data**
 
@@ -120,6 +135,12 @@ We need to use **FinancialJournal.csv** to calculate the expense, income and bal
 ```{r echo=FALSE, out.width = '80%'}
 knitr::include_graphics("C:/Users/iphone/VA_Project/images/q2_FinancialHealth.jpg")
 ```
+
+
+```{r echo=FALSE, out.width = '80%'}
+knitr::include_graphics("C:/Users/iphone/VA_Project/images/q2_FinHealthLorenz.jpg")
+```
+
 
 
 ### Visualization 2:
