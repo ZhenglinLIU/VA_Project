@@ -1,15 +1,24 @@
 ---
-title: "VA Project"
+title: "Visual Analitics Project"
 description: |
-  Welcome to the website. I hope you enjoy it!
+  Engagement City Economic
+  
 site: distill::distill_website
 ---
 
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = FALSE)
 
-# Learn more about creating websites with Distill at:
-# https://rstudio.github.io/distill/website.html
-
 ```
 
+Anticipating rapid growth, the city of Engagement, Ohio USA is doing a participatory urban planning exercise to understand the current state of the city and identify opportunities for future growth. About 1000 representative residents in this modest-sized city have agreed to provide data using the city’s urban planning app, which records the places they visit, their spending, and their purchases, among other things. From these volunteers, the city will have data to assist with their major community revitalization efforts.
+  
+  Economic considers the financial health of the city. Over time, are businesses growing or shrinking? How are people changing jobs? Are standards of living improving or declining over time?
+
+  Consider the financial status of Engagement’s businesses and residents, and use visual analytic techniques to address these questions.
+
+  - Over the period covered by the dataset, which businesses appear to be more prosperous? Which appear to be struggling?
+  
+  - How does the financial health of the residents change over the period covered by the dataset? How do wages compare to the overall cost of living in Engagement? Are there groups that appear to exhibit similar patterns?
+  
+  - Describe the health of the various employers within the city limits. What employment patterns do you observe?

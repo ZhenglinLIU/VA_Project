@@ -1,7 +1,8 @@
 ---
-title: "Proposal"
+title: "App"
 description: |
-  A new article created using the Distill format.
+  Shinny app
+  
 
 output: distill::distill_article
 ---
@@ -9,6 +10,7 @@ output: distill::distill_article
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = FALSE)
 ```
+
 
 
 
