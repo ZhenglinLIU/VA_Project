@@ -10,7 +10,6 @@ output:
   distill::distill_article:
     toc: true
     toc_float: true
-    code_folding: hide
 ---
 
 ```{r setup, include=FALSE}
@@ -280,3 +279,11 @@ knitr::include_graphics("C:/Users/iphone/VA_Project/images/q3_turnoverWeekends.p
 # 5. Application
 
 To have a better interactive visualization experience, please click on [**App**](https://projectgroup11.netlify.app/app.html)
+
+# 6. Reference
+
+- Chris Muller.(Nov. 29, 2021).
+[https://www.moneyunder30.com/simple-steps-to-evaluating-your-financial-health](https://www.moneyunder30.com/simple-steps-to-evaluating-your-financial-health)
+
+-  J.B. MAVERICK.(February 16,2022).
+[https://www.investopedia.com/articles/investing/061916/what-best-measure-companys-financial-health.asp](https://www.investopedia.com/articles/investing/061916/what-best-measure-companys-financial-health.asp)

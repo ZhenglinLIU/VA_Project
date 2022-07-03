@@ -10,7 +10,6 @@ output:
   distill::distill_article:
     toc: true
     toc_float: true
-    code_folding: hide
 ---
 
 ```{r setup, include=FALSE}
@@ -18,7 +17,21 @@ knitr::opts_chunk$set(echo = FALSE)
 ```
 
 
-# 1. Project Overview
+# 1. Overview
+
+A detailed introduction of the projects, including background, motivation, data, tasks and related visualizations.
+
+# 2. USER GUIDE
+
+A general introduction to this website and each html document.
+
+# 3. APP
+
+
+
+# 4. POSTER
+
+# 5. ABOUT US
 
 ## 1.1 Background
 
