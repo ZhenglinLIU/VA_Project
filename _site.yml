@@ -9,7 +9,7 @@ navbar:
     href: https://www.rstudio.com
   search: true
   right:
-    - text: "PROPOSAL"
+    - text: "OVERVIEW"
       href: proposal_1.html
     - text: "USER GUIDE"
       href: about.html
@@ -18,7 +18,7 @@ navbar:
     - text: "POSTER"
       href: poster.html
     - text: "ABOUT US"
-      href: us.html
+      href: AboutUs.html
     - icon: fab fa-github
       href: https://github.com/KatherineHuan/VA_Project
       
