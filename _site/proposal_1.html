@@ -2073,10 +2073,11 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
 <input id="distill-search" class="nav-search hidden" type="text" placeholder="Search..."/>
 </div>
 <div class="nav-right">
-<a href="about.html">User Guide</a>
-<a href="proposal_1.html">Proposal</a>
-<a href="app.html">App</a>
-<a href="poster.html">Poster</a>
+<a href="proposal_1.html">PROPOSAL</a>
+<a href="about.html">USER GUIDE</a>
+<a href="app.html">APP</a>
+<a href="poster.html">POSTER</a>
+<a href="us.html">ABOUT US</a>
 <a href="https://github.com/KatherineHuan/VA_Project">
 <i class="fab fa-github" aria-hidden="true"></i>
 </a>
@@ -2108,18 +2109,43 @@ class="uri">https://scis.smu.edu.sg/master-it-business/about-mitb-main</a>
 <nav class="l-text toc figcaption" id="TOC">
 <h3>Contents</h3>
 <ul>
-<li><a href="#project-overview">1. Project Overview</a></li>
+<li><a href="#project-overview">1. Project Overview</a>
+<ul>
+<li><a href="#background">1.1 Background</a></li>
+<li><a href="#motivation">1.2 Motivation</a></li>
+</ul></li>
 <li><a href="#data-source">2. Data Source</a></li>
 <li><a href="#methodology">3. Methodology</a></li>
 <li><a href="#proposed-visualization">4. Proposed Visualization</a>
 <ul>
 <li><a href="#question-1-business-situation">4.1 Question 1: Business
-Situation</a></li>
+Situation</a>
+<ul>
+<li><a href="#visualization-1">Visualization 1:</a></li>
+<li><a href="#visualization-2">Visualization 2:</a></li>
+</ul></li>
+<li><a href="#question-2-residents-financial-health">4.2 Question 2:
+Residents’ Financial Health</a>
+<ul>
+<li><a href="#visualization-1-1">Visualization 1:</a></li>
+<li><a href="#visualization-2-1">Visualization 2:</a></li>
+<li><a href="#visualization-3">Visualization 3:</a></li>
+<li><a href="#visualization-4">Visualization 4:</a></li>
+<li><a href="#visualization-5">Visualization 5:</a></li>
+</ul></li>
+<li><a href="#question-3-employer-employement-situation">4.3 Question 3:
+Employer/ Employement Situation</a>
+<ul>
+<li><a href="#visulization-1">Visulization 1:</a></li>
+<li><a href="#visulization-2">Visulization 2:</a></li>
+<li><a href="#visulization-3">Visulization 3:</a></li>
+</ul></li>
 </ul></li>
 </ul>
 </nav>
 </div>
 <h1 id="project-overview">1. Project Overview</h1>
+<h2 id="background">1.1 Background</h2>
 <p>In Engagement, Ohio, the future is now! For years this sleepy bedroom
 community was a secret gem in the heart of the state. But now the word
 is out and the people are running, not walking, to buy up their claim on
@@ -2133,14 +2159,21 @@ places they visit, their spending, and their purchases, among other
 things. From these volunteers, the city will have data to assist with
 their major community revitalization efforts, including how to allocate
 a very large city renewal grant they have recently received.</p>
+<h2 id="motivation">1.2 Motivation</h2>
+<p>Economic considers the financial health of the city. Over time, are
+businesses growing or shrinking? How are people changing jobs? Are
+standards of living improving or declining over time?</p>
 <p>In this project, based on <a
 href="https://vast-challenge.github.io/2022/"><strong>VAST Challenge
-2022</strong></a>, we decide to dig into the economic situation of the
-Engagement city.</p>
+2022</strong></a>, considering the financial status of Engagement’s
+businesses and residents, we decide to dig into the economic situation
+of the Engagement city and use visual analytic techniques to address
+these questions.</p>
 <h1 id="data-source">2. Data Source</h1>
-<p>Datasets were obtained from the VAST Challenge 2022 official website
-in csv format. Datasets required for this challenge are including, but
-not limited to:</p>
+<p>Datasets were obtained from the <a
+href="https://vast-challenge.github.io/2022/"><em>VAST Challenge
+2022</em></a> official website in csv format. Datasets required for this
+challenge are including, but not limited to:</p>
 <ul>
 <li>Participants.csv</li>
 <li>FinancialJournal.csv</li>
@@ -2175,22 +2208,52 @@ Situation</h2>
 <li>Over the period covered by the dataset, which businesses appear to
 be more prosperous? Which appear to be struggling?</li>
 </ul>
-<h4 id="visualization-1">Visualization 1:</h4>
-<p>Target</p>
-<p>DATA PROCESSING</p>
-<p>Skeleton</p>
-<p>PROBLEMS AND AREAS FOR IMPROVEMENTS</p>
-<h4 id="visualization-2">Visualization 2:</h4>
-<p>Purpose</p>
-<p>DATA PROCESSING</p>
-<p>Skeleton</p>
-<p>PROBLEMS AND AREAS FOR IMPROVEMENTS</p>
-<h4 id="visulization-3">Visulization 3:</h4>
-<p>Purpose</p>
-<p>DATA PROCESSING</p>
-<p>Skeleton</p>
-<p>PROBLEMS AND AREAS FOR IMPROVEMENTS</p>
-<p>4.2 Question 2:</p>
+<h3 id="visualization-1">Visualization 1:</h3>
+<p><strong>Target</strong></p>
+<p>Household consumption can reflect the prosperity of various
+industries. We can observe the prosperity of various industries through
+the consumption proportion of residents in all aspects in this research
+period.</p>
+<p><strong>Data</strong></p>
+<p>We need to extract residents’ consumption in different aspects from
+the <strong>FinancialJournal.csv</strong>, and get the insight by
+calculating monthly income and expense.</p>
+<p><strong>Skeleton</strong></p>
+<div class="layout-chunk" data-layout="l-body">
+<details>
+<summary>
+hide
+</summary>
+<div class="sourceCode">
+<pre class="sourceCode r"><code class="sourceCode r"><span class='fu'>knitr</span><span class='fu'>::</span><span class='fu'><a href='https://rdrr.io/pkg/knitr/man/include_graphics.html'>include_graphics</a></span><span class='op'>(</span><span class='st'>"C:/Users/iphone/VA_Project/images/q1_Expense.jpg"</span><span class='op'>)</span>
+</code></pre>
+</div>
+</details>
+<p><img src="images/q1_expense.jpg" width="80%" /></p>
+</div>
+<h3 id="visualization-2">Visualization 2:</h3>
+<p><strong>Target</strong></p>
+<p>For restaurants and pubs, revenue and number of customers can reflect
+the prosperity of these two industries.</p>
+<p><strong>Data</strong></p>
+<p>We need to use <strong>TravelJournal.csv</strong> to calculate the
+consumption amount in Restaurant and Pub, and then get the insight of
+business development situation.</p>
+<p><strong>Skeleton</strong></p>
+<div class="layout-chunk" data-layout="l-body">
+<details>
+<summary>
+hide
+</summary>
+<div class="sourceCode">
+<pre class="sourceCode r"><code class="sourceCode r"><span class='fu'>knitr</span><span class='fu'>::</span><span class='fu'><a href='https://rdrr.io/pkg/knitr/man/include_graphics.html'>include_graphics</a></span><span class='op'>(</span><span class='st'>"C:/Users/iphone/VA_Project/images/q1_respubRevenue.jpg"</span><span class='op'>)</span>
+</code></pre>
+</div>
+</details>
+<p><img src="images/q1_respubRevenue.jpg" width="80%" /></p>
+</div>
+<h2 id="question-2-residents-financial-health">4.2 Question 2:
+Residents’ Financial Health</h2>
 <ul>
 <li>How does the financial health of the residents change over the
 period covered by the dataset?</li>
@@ -2198,44 +2261,259 @@ period covered by the dataset?</li>
 Engagement?</li>
 <li>Are there groups that appear to exhibit similar patterns?</li>
 </ul>
-<h4 id="visualization-1-1">Visualization 1:</h4>
-<p>Purpose</p>
-<p>DATA PROCESSING</p>
-<p>Skeleton</p>
-<p>PROBLEMS AND AREAS FOR IMPROVEMENTS</p>
-<h4 id="visualization-2-1">Visualization 2:</h4>
-<p>Purpose</p>
-<p>DATA PROCESSING</p>
-<p>Skeleton</p>
-<p>PROBLEMS AND AREAS FOR IMPROVEMENTS</p>
-<h4 id="visulization-3-1">Visulization 3:</h4>
-<p>Purpose</p>
-<p>DATA PROCESSING</p>
-<p>Skeleton</p>
-<p>PROBLEMS AND AREAS FOR IMPROVEMENTS</p>
-<p>4.3 Question 3: Employer/ Employement Situation</p>
+<h3 id="visualization-1-1">Visualization 1:</h3>
+<p><strong>Target</strong></p>
+<p>Higher incomes or higher balances mean that people have more money to
+spend, and more a higher consumption on recreation means that are more
+likely to enjoy life. So, financial Health can be shown by monthly wage
+or monthly total/average balance.</p>
+<p><strong>Data</strong></p>
+<p>We need to use <strong>FinancialJournal.csv</strong> to calculate the
+expense, income and balance respectively to visualize the trend during
+this period.</p>
+<p><strong>Skeleton</strong></p>
+<div class="layout-chunk" data-layout="l-body">
+<details>
+<summary>
+hide
+</summary>
+<div class="sourceCode">
+<pre class="sourceCode r"><code class="sourceCode r"><span class='fu'>knitr</span><span class='fu'>::</span><span class='fu'><a href='https://rdrr.io/pkg/knitr/man/include_graphics.html'>include_graphics</a></span><span class='op'>(</span><span class='st'>"C:/Users/iphone/VA_Project/images/q2_FinancialHealth.jpg"</span><span class='op'>)</span>
+</code></pre>
+</div>
+</details>
+<p><img src="images/q2_FinancialHealth.jpg" width="80%" /></p>
+</div>
+<h3 id="visualization-2-1">Visualization 2:</h3>
+<p><strong>Target</strong></p>
+<p>By plotting each individual’s income/expense/balance, we can better
+evaluate each residents’ financial health.</p>
+<p><strong>Data</strong></p>
+<p>Original <strong>FinancialJournal.csv</strong> with participant ID
+will be used, similarly, to calculate the expense, income and balance
+respectivelyfor each candidates.</p>
+<p><strong>Skeleton</strong></p>
+<div class="layout-chunk" data-layout="l-body">
+<details>
+<summary>
+hide
+</summary>
+<div class="sourceCode">
+<pre class="sourceCode r"><code class="sourceCode r"><span class='fu'>knitr</span><span class='fu'>::</span><span class='fu'><a href='https://rdrr.io/pkg/knitr/man/include_graphics.html'>include_graphics</a></span><span class='op'>(</span><span class='st'>"C:/Users/iphone/VA_Project/images/q2_individualFin.jpg"</span><span class='op'>)</span>
+</code></pre>
+</div>
+</details>
+<p><img src="images/q2_individualFin.jpg" width="80%" /></p>
+</div>
+<h3 id="visualization-3">Visualization 3:</h3>
+<p><strong>Purpose</strong></p>
+<p>How is the expense distributed during this period? Is expenditure on
+recreation/food increase? Expenditure is another way to understand the
+financial health and people’s living standard .</p>
+<p><strong>Data</strong></p>
+<p>Expenditure indifferent aspect need to be filtered out to show the
+financial situation.</p>
+<p><strong>Skeleton</strong></p>
+<div class="layout-chunk" data-layout="l-body">
+<details>
+<summary>
+hide
+</summary>
+<div class="sourceCode">
+<pre class="sourceCode r"><code class="sourceCode r"><span class='fu'>knitr</span><span class='fu'>::</span><span class='fu'><a href='https://rdrr.io/pkg/knitr/man/include_graphics.html'>include_graphics</a></span><span class='op'>(</span><span class='st'>"C:/Users/iphone/VA_Project/images/q2_Expense.jpg"</span><span class='op'>)</span>
+</code></pre>
+</div>
+</details>
+<p><img src="images/q2_Expense.jpg" width="80%" /></p>
+</div>
+<h3 id="visualization-4">Visualization 4:</h3>
+<p><strong>Purpose</strong></p>
+<p>How do wages compare to the overall cost of living in Engagement? One
+way to compare is get the coefficient of expenditure and income, another
+way is to visualize the scatter plot in each month to observe the
+distribution of income and expense.</p>
+<p><strong>Data</strong></p>
+<p>Here, we can calculate the line graph of coefficient- total expense
+divided by total income.</p>
+<p><strong>Skeleton</strong></p>
+<div class="layout-chunk" data-layout="l-body">
+<details>
+<summary>
+hide
+</summary>
+<div class="sourceCode">
+<pre class="sourceCode r"><code class="sourceCode r"><span class='fu'>knitr</span><span class='fu'>::</span><span class='fu'><a href='https://rdrr.io/pkg/knitr/man/include_graphics.html'>include_graphics</a></span><span class='op'>(</span><span class='st'>"C:/Users/iphone/VA_Project/images/q2_Coef.jpg"</span><span class='op'>)</span>
+</code></pre>
+</div>
+</details>
+<p><img src="images/q2_Coef.jpg" width="80%" /></p>
+</div>
+<div class="layout-chunk" data-layout="l-body">
+<details>
+<summary>
+hide
+</summary>
+<div class="sourceCode">
+<pre class="sourceCode r"><code class="sourceCode r"><span class='fu'>knitr</span><span class='fu'>::</span><span class='fu'><a href='https://rdrr.io/pkg/knitr/man/include_graphics.html'>include_graphics</a></span><span class='op'>(</span><span class='st'>"C:/Users/iphone/VA_Project/images/q2_2_exIn.jpg"</span><span class='op'>)</span>
+</code></pre>
+</div>
+</details>
+<p><img src="images/q2_2_exIn.jpg" width="80%" /></p>
+</div>
+<h3 id="visualization-5">Visualization 5:</h3>
+<p><strong>Purpose</strong></p>
+<p>People’s spend and earning pattern may vary from different interest
+group, education level , age group and joviality level. There are many
+graph can help to understand better of these patterns, for example,
+scatter plot to show the distribution of residents’ expense and income
+in different age. We need to try multiple tables to see which one can
+give us a better result.</p>
+<p><strong>Data</strong></p>
+<p>In addition to <strong>participants.csv</strong>,
+<strong>Participant.csv</strong> also need to be combined to look into
+financial patterns.</p>
+<p><strong>Skeleton</strong></p>
+<div class="layout-chunk" data-layout="l-body">
+<details>
+<summary>
+hide
+</summary>
+<div class="sourceCode">
+<pre class="sourceCode r"><code class="sourceCode r"><span class='fu'>knitr</span><span class='fu'>::</span><span class='fu'><a href='https://rdrr.io/pkg/knitr/man/include_graphics.html'>include_graphics</a></span><span class='op'>(</span><span class='st'>"C:/Users/iphone/VA_Project/images/q2_3_patterndens.jpg"</span><span class='op'>)</span>
+</code></pre>
+</div>
+</details>
+<p><img src="images/q2_3_patterndens.jpg" width="80%" /></p>
+</div>
+<div class="layout-chunk" data-layout="l-body">
+<details>
+<summary>
+hide
+</summary>
+<div class="sourceCode">
+<pre class="sourceCode r"><code class="sourceCode r"><span class='fu'>knitr</span><span class='fu'>::</span><span class='fu'><a href='https://rdrr.io/pkg/knitr/man/include_graphics.html'>include_graphics</a></span><span class='op'>(</span><span class='st'>"C:/Users/iphone/VA_Project/images/q2_3_pattern.jpg"</span><span class='op'>)</span>
+</code></pre>
+</div>
+</details>
+<p><img src="images/q2_3_pattern.jpg" width="80%" /></p>
+</div>
+<div class="layout-chunk" data-layout="l-body">
+<details>
+<summary>
+hide
+</summary>
+<div class="sourceCode">
+<pre class="sourceCode r"><code class="sourceCode r"><span class='fu'>knitr</span><span class='fu'>::</span><span class='fu'><a href='https://rdrr.io/pkg/knitr/man/include_graphics.html'>include_graphics</a></span><span class='op'>(</span><span class='st'>"C:/Users/iphone/VA_Project/images/q2_3_stat.jpg"</span><span class='op'>)</span>
+</code></pre>
+</div>
+</details>
+<p><img src="images/q2_3_stat.jpg" width="80%" /></p>
+</div>
+<div class="layout-chunk" data-layout="l-body">
+<details>
+<summary>
+hide
+</summary>
+<div class="sourceCode">
+<pre class="sourceCode r"><code class="sourceCode r"><span class='fu'>knitr</span><span class='fu'>::</span><span class='fu'><a href='https://rdrr.io/pkg/knitr/man/include_graphics.html'>include_graphics</a></span><span class='op'>(</span><span class='st'>"C:/Users/iphone/VA_Project/images/q2_3_threeFacScatter.jpg"</span><span class='op'>)</span>
+</code></pre>
+</div>
+</details>
+<p><img src="images/q2_3_threeFacScatter.jpg" width="80%" /></p>
+</div>
+<h2 id="question-3-employer-employement-situation">4.3 Question 3:
+Employer/ Employement Situation</h2>
 <ul>
 <li><p>Describe the health of the various employers within the city
 limits.</p></li>
 <li><p>What employment patterns do you observe?</p></li>
 <li><p>Any areas of particularly high or low turnover?</p></li>
 </ul>
-<h4 id="visualization-1-financial-health-of-the-employers">Visualization
-1: Financial health of the employers</h4>
-<p>Purpose</p>
-<p>DATA PROCESSING</p>
-<p>Skeleton</p>
-<p>PROBLEMS AND AREAS FOR IMPROVEMENTS</p>
-<h4 id="visualization-2-2">Visualization 2:</h4>
-<p>Purpose</p>
-<p>DATA PROCESSING</p>
-<p>Skeleton</p>
-<p>PROBLEMS AND AREAS FOR IMPROVEMENTS</p>
-<h4 id="visulization-3-2">Visulization 3:</h4>
-<p>Purpose</p>
-<p>DATA PROCESSING</p>
-<p>Skeleton</p>
-<p>PROBLEMS AND AREAS FOR IMPROVEMENTS</p>
+<h3 id="visulization-1">Visulization 1:</h3>
+<p><strong>Purpose</strong></p>
+<p>To know the health of the various employers, we need to know
+different employers’ employee size, which can be represented by the
+shape in tree map; we need to know the salary level of each employer,
+which can be represented by the shade of the tree map.</p>
+<p>The larger the size, the more employer have the same size of
+employees; the darker the shade, the higher the hourly salary.</p>
+<p><strong>Data</strong></p>
+<p>We will use <strong>ActivityLogs.csv</strong> to identify job
+category, and then join with <strong>job.csv</strong> by job Id to get
+the hourly salary that represented by the shade. The joined dataset need
+to join with <strong>Employer.csv</strong> to acquire the number of
+employees that represented by the shape.</p>
+<p><strong>Skeleton</strong></p>
+<div class="layout-chunk" data-layout="l-body">
+<details>
+<summary>
+hide
+</summary>
+<div class="sourceCode">
+<pre class="sourceCode r"><code class="sourceCode r"><span class='fu'>knitr</span><span class='fu'>::</span><span class='fu'><a href='https://rdrr.io/pkg/knitr/man/include_graphics.html'>include_graphics</a></span><span class='op'>(</span><span class='st'>"C:/Users/iphone/VA_Project/images/q3_employer.png"</span><span class='op'>)</span>
+</code></pre>
+</div>
+</details>
+<p><img src="images/q3_employer.png" width="80%" /></p>
+</div>
+<h3 id="visulization-2">Visulization 2:</h3>
+<p><strong>Purpose</strong></p>
+<p>Different requirement of education level may implies different
+salary, it’s one aspect of the employment pattern.</p>
+<p><strong>Data</strong></p>
+<p>To observe the employment pattern regarding requirement to employees’
+education level, <strong>Job.csv</strong> is utilised to acquire data of
+education requirement in different employer.</p>
+<p><strong>Skeleton</strong></p>
+<div class="layout-chunk" data-layout="l-body">
+<details>
+<summary>
+hide
+</summary>
+<div class="sourceCode">
+<pre class="sourceCode r"><code class="sourceCode r"><span class='fu'>knitr</span><span class='fu'>::</span><span class='fu'><a href='https://rdrr.io/pkg/knitr/man/include_graphics.html'>include_graphics</a></span><span class='op'>(</span><span class='st'>"C:/Users/iphone/VA_Project/images/q3_employeeSalary.jpg"</span><span class='op'>)</span>
+</code></pre>
+</div>
+</details>
+<p><img src="images/q3_employeeSalary.jpg" width="80%" /></p>
+</div>
+<h3 id="visulization-3">Visulization 3:</h3>
+<p><strong>Purpose</strong></p>
+<p>Regarding to the areas of particularly high or low turnover, we may
+explore whether education level requirements affect the turnover rate,
+whether working days within one week or working frequency in weekends
+affect the turnover.</p>
+<p><strong>Data</strong></p>
+<p>First, <strong>ActivityLogs.csv</strong> is used to calculate the
+times each one changing a job in this period, then combine with
+<strong>Jobs.csv</strong> to show the relationship between the turnover
+frequency and education level requirement as well as working days in
+weekends.</p>
+<p><strong>Skeleton</strong></p>
+<div class="layout-chunk" data-layout="l-body">
+<details>
+<summary>
+hide
+</summary>
+<div class="sourceCode">
+<pre class="sourceCode r"><code class="sourceCode r"><span class='fu'>knitr</span><span class='fu'>::</span><span class='fu'><a href='https://rdrr.io/pkg/knitr/man/include_graphics.html'>include_graphics</a></span><span class='op'>(</span><span class='st'>"C:/Users/iphone/VA_Project/images/q3_turnoverEdu.jpg"</span><span class='op'>)</span>
+</code></pre>
+</div>
+</details>
+<p><img src="images/q3_turnoverEdu.jpg" width="80%" /></p>
+</div>
+<div class="layout-chunk" data-layout="l-body">
+<details>
+<summary>
+hide
+</summary>
+<div class="sourceCode">
+<pre class="sourceCode r"><code class="sourceCode r"><span class='fu'>knitr</span><span class='fu'>::</span><span class='fu'><a href='https://rdrr.io/pkg/knitr/man/include_graphics.html'>include_graphics</a></span><span class='op'>(</span><span class='st'>"C:/Users/iphone/VA_Project/images/q3_turnoverWeekends.png"</span><span class='op'>)</span>
+</code></pre>
+</div>
+</details>
+<p><img src="images/q3_turnoverWeekends.png" width="80%" /></p>
+</div>
 <div class="sourceCode" id="cb1"><pre
 class="sourceCode r distill-force-highlighting-css"><code class="sourceCode r"></code></pre></div>
 <!--radix_placeholder_article_footer-->
