@@ -270,3 +270,6 @@ knitr::include_graphics("C:/Users/iphone/VA_Project/images/q3_turnoverEdu.jpg")
 knitr::include_graphics("C:/Users/iphone/VA_Project/images/q3_turnoverWeekends.png")
 ```
 
+# 5. Application
+
+To have a better interactive visualization experience, please click on [**App**](https://projectgroup11.netlify.app/app.html)
