@@ -1,7 +1,16 @@
 ---
 title: "ISSS608 Group 11 User Guide"
 description: |
-  Some additional details about the website
+  Vast Challenge 2022: Challenge 3 - Economic
+author:
+  - name: Li Huan, Liu Zhenglin
+    affiliation: SMU, SCIS, Master of IT in Business
+    affiliation_url: https://scis.smu.edu.sg/master-it-business/about-mitb-main
+output:
+  distill::distill_article:
+    toc: true
+    toc_float: true
+    code_folding: hide
 ---
 
 ```{r setup, include=FALSE}
@@ -13,3 +22,4 @@ knitr::opts_chunk$set(echo = FALSE)
 ## 2. Poster
 
 ## 3. App
+

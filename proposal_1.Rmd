@@ -1,9 +1,16 @@
 ---
 title: "Proposal"
 description: |
-  A new article created using the Distill format.
-
-output: distill::distill_article
+  Vast Challenge 2022: Challenge 3 - Economic
+author:
+  - name: Li Huan, Liu Zhenglin
+    affiliation: SMU, SCIS, Master of IT in Business
+    affiliation_url: https://scis.smu.edu.sg/master-it-business/about-mitb-main
+output:
+  distill::distill_article:
+    toc: true
+    toc_float: true
+    code_folding: hide
 ---
 
 ```{r setup, include=FALSE}
@@ -11,6 +18,163 @@ knitr::opts_chunk$set(echo = FALSE)
 ```
 
 
+# 1. Project Overview
+
+In Engagement, Ohio, the future is now! For years this sleepy bedroom community was a secret gem in the heart of the state. But now the word is out and the people are running, not walking, to buy up their claim on this bit of paradise!
+
+Anticipating rapid growth, the city of Engagement, Ohio USA is doing a participatory urban planning exercise to understand the current state of the city and identify opportunities for future growth. About 1000 representative residents in this modest-sized city have agreed to provide data using the city’s urban planning app, which records the places they visit, their spending, and their purchases, among other things. From these volunteers, the city will have data to assist with their major community revitalization efforts, including how to allocate a very large city renewal grant they have recently received. 
+
+In this project, based on [**VAST Challenge 2022**](https://vast-challenge.github.io/2022/), we decide to dig into the economic situation of the Engagement city. 
+
+# 2. Data Source
+
+Datasets were obtained from the VAST Challenge 2022 official website in csv format. Datasets required for this challenge are including, but not limited to:
+
+- Participants.csv
+- FinancialJournal.csv
+- Pubs.csv
+- Restaurants.csv
+- CheckinJournal.csv
+
+
+# 3. Methodology
+The following are the packages required for this challenge, including but not limited to:
+
+- tidyverse:  are designed to work together to make common data science operations more user friendly. The packages have functions for data wrangling, tidying, reading/writing, parsing, and visualizing, among others.
+
+- lubridate: fast and user friendly parsing of date-time data, extraction and updating of components of a date-time (years, months, days, hours, minutes, and seconds), algebraic manipulation on date-time and time-span objects
+
+- ggiraph: a tool that allows you to create dynamic ggplot graphs. This allows you to add tooltips, hover effects and JavaScript actions to the graphics. The package also allows the selection of graphical elements when used in shiny applications.
+
+- gganimate: extends the grammar of graphics as implemented by ggplot2 to include the description of animation.
+
+
+- ggstatsplot: to provide statistical details
+
+
+# 4. Proposed Visualization
+
+## 4.1 Question 1: Business Situation 
+
+- Over the period covered by the dataset, which businesses appear to be more prosperous? Which appear to be struggling?
+
+#### Visualization 1:
+
+Target 
+
+
+DATA PROCESSING
+
+Skeleton
+
+PROBLEMS AND AREAS FOR IMPROVEMENTS
 
 
 
+#### Visualization 2:
+
+Purpose
+
+DATA PROCESSING
+
+Skeleton
+
+PROBLEMS AND AREAS FOR IMPROVEMENTS
+
+
+#### Visulization 3:
+
+Purpose
+
+DATA PROCESSING
+
+Skeleton
+
+PROBLEMS AND AREAS FOR IMPROVEMENTS
+
+
+
+4.2 Question 2: 
+
+- How does the financial health of the residents change over the period covered by the dataset? 
+- How do wages compare to the overall cost of living in Engagement? 
+- Are there groups that appear to exhibit similar patterns? 
+
+#### Visualization 1:
+
+Purpose
+
+
+DATA PROCESSING
+
+Skeleton
+
+PROBLEMS AND AREAS FOR IMPROVEMENTS
+
+
+
+#### Visualization 2:
+
+Purpose
+
+DATA PROCESSING
+
+Skeleton
+
+PROBLEMS AND AREAS FOR IMPROVEMENTS
+
+
+
+#### Visulization 3:
+
+Purpose
+
+DATA PROCESSING
+
+Skeleton
+
+PROBLEMS AND AREAS FOR IMPROVEMENTS
+
+
+
+4.3 Question 3: Employer/ Employement Situation
+
+- Describe the health of the various employers within the city limits.
+
+- What employment patterns do you observe? 
+
+- Any areas of particularly high or low turnover?
+
+#### Visualization 1: Financial health of the employers
+
+Purpose
+
+DATA PROCESSING
+
+Skeleton
+
+PROBLEMS AND AREAS FOR IMPROVEMENTS
+
+
+
+#### Visualization 2:
+
+Purpose
+
+DATA PROCESSING
+
+Skeleton
+
+PROBLEMS AND AREAS FOR IMPROVEMENTS
+
+
+
+#### Visulization 3:
+
+Purpose
+
+DATA PROCESSING
+
+Skeleton
+
+PROBLEMS AND AREAS FOR IMPROVEMENTS

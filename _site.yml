@@ -1,6 +1,7 @@
 name: "VA_Project"
 title: "Visual Analytic Project"
-
+description: |
+  Data Analytics Journey
 output_dir: "_site"
 navbar:
   logo:
@@ -18,4 +19,5 @@ navbar:
       href: poster.html
     - icon: fab fa-github
       href: https://github.com/KatherineHuan/VA_Project
+      
 output: distill::distill_article

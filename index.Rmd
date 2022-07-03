@@ -27,3 +27,4 @@ Anticipating rapid growth, the city of Engagement, Ohio USA is doing a participa
   - How does the financial health of the residents change over the period covered by the dataset? How do wages compare to the overall cost of living in Engagement? Are there groups that appear to exhibit similar patterns?
   
   - Describe the health of the various employers within the city limits. What employment patterns do you observe?
+
