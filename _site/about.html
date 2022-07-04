@@ -2113,12 +2113,28 @@ class="uri">https://scis.smu.edu.sg/master-it-business/about-mitb-main</a>
 <li><a href="#user-guide">2. <span>USER GUIDE</span></a></li>
 <li><a href="#app">3. <span>App</span></a>
 <ul>
-<li><a href="#question-1">Question 1</a></li>
-<li><a href="#question-2">Question 2</a></li>
-<li><a href="#question-3">Question 3</a></li>
+<li><a href="#question-1">Question 1</a>
+<ul>
+<li><a href="#answer-1">Answer 1</a></li>
+<li><a href="#answer-2">Answer 2</a></li>
+<li><a href="#answer-3">Answer 3</a></li>
+</ul></li>
+<li><a href="#question-2">Question 2</a>
+<ul>
+<li><a href="#answer-1-1">Answer 1</a></li>
+<li><a href="#answer-2-1">Answer 2</a></li>
+<li><a href="#answer-3-1">Answer 3</a></li>
+</ul></li>
+<li><a href="#question-3">Question 3</a>
+<ul>
+<li><a href="#answer-1-2">Answer 1</a></li>
+<li><a href="#answer-2-2">Answer 2</a></li>
+<li><a href="#answer-3-2">Answer 3</a></li>
+</ul></li>
 </ul></li>
 <li><a href="#poster">4. <span>POSTER</span></a></li>
 <li><a href="#about-us">5. <span>ABOUT US</span></a></li>
+<li><a href="#future-work">6. Future Work</a></li>
 </ul>
 </nav>
 </div>
@@ -2134,44 +2150,181 @@ href="https://projectgroup11.netlify.app/app.html">App</a></h1>
 <p>A Shinny Application that provide more interactive visual
 experience.</p>
 <h2 id="question-1">Question 1</h2>
-<ul>
-<li>Over the period covered by the dataset, which businesses appear to
-be more prosperous? Which appear to be struggling? Describe your
-rationale for your answers.</li>
-</ul>
-<p>Answer 1: App -&gt; Prosperous and Struggling Business</p>
-<h2 id="question-2">Question 2</h2>
-<ul>
-<li>How does the financial health of the residents change over the
-period covered by the dataset? How do wages compare to the overall cost
-of living in Engagement? Are there groups that appear to exhibit similar
-patterns?</li>
-</ul>
-<p>Answer 2: App -&gt; Financial Health of Residents</p>
+<p>Over the period covered by the dataset, which businesses appear to be
+more prosperous? Which appear to be struggling? Describe your rationale
+for your answers.</p>
+<h3 id="answer-1">Answer 1</h3>
+<p><strong>Prosperous and struggling business based on households’
+expense</strong></p>
+<p>Path: App -&gt; Prosperous and Struggling Business -&gt; Total
+Expense over Time</p>
 <div class="layout-chunk" data-layout="l-body">
-<p><img src="images/app/q2_Ridge.jpg" width="80%" /></p>
+<p><img src="images/app/q1_householdexpense.jpg" width="100%" /></p>
+</div>
+<p>[1] By selecting the drop-down list, we can add or delete different
+expense category in the table, to compare and observe the expenditure
+trend in each aspect.</p>
+<p>[2] By hanging over each points we can get more details of the
+category and consuming amount in this category in corresponding
+month.</p>
+<h3 id="answer-2">Answer 2</h3>
+<p><strong>Revenue during specific period to compare the prosperity of
+pub and restaurant industries</strong></p>
+<p>Path: App -&gt; Prosperous and Struggling Business -&gt; Business
+Revenue over Time</p>
+<div class="layout-chunk" data-layout="l-body">
+<p><img src="images/app/q1_pubResRevenue.jpg" width="100%" /></p>
+</div>
+<p>[3] By selecting from the drop-down list of the start time and end
+time, we can determine which period to take a closer look to understand
+the prosperity of this two industries.</p>
+<h3 id="answer-3">Answer 3</h3>
+<p><strong>Monthly revenue trend for each pub/restaurant</strong></p>
+<p>Path: App -&gt; Prosperous and Struggling Business -&gt; Pubs
+Revenue/Restaurant Revenue</p>
+<div class="layout-chunk" data-layout="l-body">
+<p><img src="images/app/q1_pubs.png" width="100%" /></p>
+</div>
+<div class="layout-chunk" data-layout="l-body">
+<p><img src="images/app/q1_restaurant.png" width="100%" /></p>
+</div>
+<p>[4] By selecting from the Pub ID drop-down options, we can add or
+remove pub or restaurant IDs that we want to explore.</p>
+<p>[5] We can choose start time and end time to visualize the trend.</p>
+<p>[6] We can get access to more details of selected ID in areas under
+the visualization plot.</p>
+<h2 id="question-2">Question 2</h2>
+<p>How does the financial health of the residents change over the period
+covered by the dataset? How do wages compare to the overall cost of
+living in Engagement? Are there groups that appear to exhibit similar
+patterns?</p>
+<h3 id="answer-1-1">Answer 1</h3>
+<p><strong>Financial health of the residents change over the
+period</strong></p>
+<ul>
+<li>Wage/balance and other financial categories change over the
+period</li>
+</ul>
+<p>Path: App -&gt; Financial Health of Residents -&gt; Calculated
+Financial Index Change by Time</p>
+<div class="layout-chunk" data-layout="l-body">
+<p><img src="images/app/q2_Ridge.jpg" width="100%" /></p>
 </div>
 <p>[1] By selecting different category- “Expense”, “Income”, “Balance”
 or other expenditure on “Food” or “Recreation” etc., we can observe the
 trend respectively during this 15 months.</p>
-<div class="layout-chunk" data-layout="l-body">
-<p><img src="images/app/q2_lorenz.jpg" width="80%" /></p>
-</div>
-<p>[2] By selecting “Total Earning”, “Total Saving” and “Total Expense”,
-The Lorenz curve will be shown respectively.</p>
-<p>[3] For example, 50%t of the people control 25% of the income and the
-other 75% income dominated by the other 50% residents, which shows
-income inequality. For Total Saving, this balance is even more obvious.
-You can select “Total Saving” from the drop-down list.</p>
-<h2 id="question-3">Question 3</h2>
 <ul>
-<li>Describe the health of the various employers within the city limits.
-What employment patterns do you observe? Do you notice any areas of
-particularly high or low turnover?</li>
+<li>Monthly expense in different categories</li>
 </ul>
-<p>Answer 3: App -&gt; Financial Health of Employers</p>
+<p>Path: App -&gt; Financial Health of Residents -&gt; Total Monthly
+Expense</p>
 <div class="layout-chunk" data-layout="l-body">
-<p><img src="images/app/q3_treemap.jpg" width="80%" /></p>
+<p><img src="images/app/q2_expense.png" width="100%" /></p>
+</div>
+<p>[2] By selecting from the drop-down list, we can select the category
+for expenditure to plot the bar chart.</p>
+<p>[3] Hanging over the graph we can get the detailed time and consuming
+amount at corresponding point.</p>
+<ul>
+<li>Using Lorenz Curve to show wealth distribution</li>
+</ul>
+<p>Path: App -&gt; Financial Health of Residents -&gt; Lorenz Curve</p>
+<div class="layout-chunk" data-layout="l-body">
+<p><img src="images/app/q2_Lorenz.png" width="100%" /></p>
+</div>
+<p>[4] By selecting “Total Earning”, “Total Saving” and “Total Expense”,
+from the side bar, the Lorenz curve will be shown respectively.</p>
+<p>[5] For example, we can observe that 50% of the people control 25% of
+the income and the other 75% income dominated by the other 50%
+residents, which shows income inequality. For Total Saving, this balance
+is even more obvious. You can select “Total Saving” from the drop-down
+list.</p>
+<h3 id="answer-2-1">Answer 2</h3>
+<p><strong>Wages compare with the overall cost of living</strong></p>
+<ul>
+<li>Expenditure/Income rate</li>
+</ul>
+<p>Path: App -&gt; Financial Health of Residents -&gt; Wage Compare with
+Cost Of Living</p>
+<div class="layout-chunk" data-layout="l-body">
+<p><img src="images/app/q2_OutInRate.png" width="100%" /></p>
+</div>
+<p>[6] By hanging over the chart, we can access to more details of time
+and rate.</p>
+<ul>
+<li>Distribution of wage and expense</li>
+</ul>
+<p>Path: App -&gt; Financial Health of Residents -&gt; Wage Compare with
+Cost of Living Monthly</p>
+<div class="layout-chunk" data-layout="l-body">
+<p><img src="images/app/q2_outInScatter.jpg" width="100%" /></p>
+</div>
+<p>[7] By selecting expenditure category side bar, we can easily observe
+the relationship between expenditure on different category and monthly
+income.And the color is based on the category, in other words, the
+participants education level/interest group. And the color shade
+represents the month.</p>
+<h3 id="answer-3-1">Answer 3</h3>
+<p><strong>Residents’ financial health patterns</strong></p>
+<ul>
+<li>Density plot of financial category of different group</li>
+</ul>
+<p>Path: App -&gt; Financial Health of Residents -&gt; Density
+Distribution of Residents’ Monthly Financial Category</p>
+<div class="layout-chunk" data-layout="l-body">
+<p><img src="images/app/q2_densityEduCat.png" width="100%" /></p>
+</div>
+<p>[8] By selecting from the category bar, we can choose
+balance/income/expense as x axis and get the density line of
+corresponding category.</p>
+<p>[9] By selecting from character side bar, we can choose different
+variable such as education level to show the distinct character group
+density line using different color.</p>
+<p>[10] Hanging over to know the density, category and character
+detail.</p>
+<ul>
+<li>Statistical box plot of financial category of different group</li>
+</ul>
+<p>Path: App -&gt; Financial Health of Residents -&gt; Monthly Financial
+Category with Characters</p>
+<div class="layout-chunk" data-layout="l-body">
+<p><img src="images/app/q2_box.png" width="100%" /></p>
+</div>
+<p>[11] Selecting from the category side bar to determine which category
+to visualize and reflect in X axis.</p>
+<p>[12] Selecting from the character side bar to determine which
+character to visualize and reflect different group in Y axis.</p>
+<ul>
+<li>A combination (3 factors) of different financial category, residents
+characters to show financial patterns in scatter plot.</li>
+</ul>
+<p>Path: App -&gt; Financial Health of Residents -&gt; Financial Pattern
+Scatter Plot</p>
+<div class="layout-chunk" data-layout="l-body">
+<p><img src="images/app/q2_Scatter.png" width="100%" /></p>
+</div>
+<p>[13] X axis drop-down list is numeric data- age/joviality.</p>
+<p>[14] Y axis drop-down is the financial category, including but not
+limited to wage, food, recreation, balance and balance.</p>
+<p>[15] Fill drop-down is the residents’ character group, different
+color represents different group. By clicking on the variable on the
+legend, we are able to remove or add different group data from the plot,
+so that to avoid overcrowded data on the graph and help to compare
+interactively between different groups.</p>
+<h2 id="question-3">Question 3</h2>
+<p>Describe the health of the various employers within the city limits.
+What employment patterns do you observe? Do you notice any areas of
+particularly high or low turnover?</p>
+<h3 id="answer-1-2">Answer 1</h3>
+<p><strong>The health of the various employer</strong></p>
+<ul>
+<li>In tree map, employers’ employee size represented by the shape, the
+salary level represented by the shade.</li>
+</ul>
+<p>Path: App -&gt; Health of Employers -&gt; Number of Employees Hired
+by Employers</p>
+<div class="layout-chunk" data-layout="l-body">
+<p><img src="images/app/q3_treemap.jpg" width="100%" /></p>
 </div>
 <p>[1] We can select different years and months by drop-down
 options.</p>
@@ -2181,15 +2334,29 @@ who have 5 employees take up the maximum proportion, and among them
 employer ID 429 provides the highest monthly wage.</p>
 <p>[3] The shade represents the monthly salary, the darker, the higher
 salary. Employer Id 848 offer the highest salary in this month.</p>
+<h3 id="answer-2-2">Answer 2</h3>
+<p><strong>Employment patterns</strong></p>
+<ul>
+<li>The influence of education level to salary</li>
+</ul>
+<p>Path: App -&gt; Health of Employers -&gt; Job Salary by Different
+Education Level</p>
 <div class="layout-chunk" data-layout="l-body">
-<p><img src="images/app/q3_densityEdu.jpg" width="80%" /></p>
+<p><img src="images/app/q3_densityEdu.jpg" width="100%" /></p>
 </div>
 <p>[4] We can observe that for employer with different education level
 requirements, the salary distribution varies. By dragging the bar, we
 can take a closer looker into the density difference in different
 salary.</p>
+<h3 id="answer-3-2">Answer 3</h3>
+<p><strong>Turnover</strong></p>
+<ul>
+<li>Turnover frequency according to different employee group: Education
+level, Working days in weekends, Interest group</li>
+</ul>
+<p>Path: App -&gt; Health of Employers -&gt; Job Turnover</p>
 <div class="layout-chunk" data-layout="l-body">
-<p><img src="images/app/q3_barEmployementPattern.jpg" width="80%" /></p>
+<p><img src="images/app/q3_barEmployementPattern.jpg" width="100%" /></p>
 </div>
 <p>[5] Turnover rate varies from job requirements of different interest
 group, different education level and working on weekends. By selecting
@@ -2201,6 +2368,19 @@ href="https://projectgroup11.netlify.app/poster.html">POSTER</a></h1>
 project.</p>
 <h1 id="about-us">5. <a href="">ABOUT US</a></h1>
 <p>More information of the author and tutor.</p>
+<h1 id="future-work">6. Future Work</h1>
+<ul>
+<li><p>In order to better illustrate the prosperity of various industry,
+more data on the profitability, cost rate and growth scale of different
+business are needed.</p></li>
+<li><p>More detailed data are needed to support the exploration of
+residents’ financial health and employers’ financial Health, so as to
+further explore the impact of different factors on living standards and
+economic levels.</p></li>
+<li><p>Due to time and shinny application skills limitation, some other
+visualization methods have not been tried. More insight can be gained by
+improving the visualization methods.</p></li>
+</ul>
 <div class="sourceCode" id="cb1"><pre
 class="sourceCode r distill-force-highlighting-css"><code class="sourceCode r"></code></pre></div>
 <!--radix_placeholder_article_footer-->
