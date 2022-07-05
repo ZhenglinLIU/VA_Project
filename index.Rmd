@@ -1,30 +1,47 @@
 ---
-title: "Visual Analitics Project"
-description: |
-  Engagement City Economic
-  
-  
-  
+title: "ISSS608 VA PROJECT - Engagement's Economic"
 site: distill::distill_website
+image: "images/1.png"
+links:
+  - label: '<i class="fab fa-github"></i> GitHub'
+    url: "https://github.com/KatherineHuan/VA_Project"
+  - label: '<i class="fa fa-bar-chart"></i> Shiny website'
+    url: "https://zhenglinliu9711.shinyapps.io/Vast_Challenge/?_ga=2.212974484.1019705079.1656816716-929220095.1654930293"
+navbar:
+  search: true
+output:
+  postcards::jolla
 ---
-
-```{r setup, include=FALSE}
-knitr::opts_chunk$set(echo = FALSE)
-
-# Learn more about creating websites with Distill at:
-# https://rstudio.github.io/distill/website.html
-
+ 
+```{r setup, message=FALSE, warning=FALSE, include=FALSE}
+library(metathis)
+meta() %>%
+  meta_description(
+    "The website of va projrct"
+  ) %>%
+  #meta_name("github-repo" = "jhelvy/jhelvy.com") %>%
+  meta_viewport() %>%
+  meta_social(
+    title = "https://www.pipinghotdata.com/",
+    url = "https://www.pipinghotdata.com/",
+    image = "https://github.com/shannonpileggi/pipinghotdata_distill/blob/master/shannon-circle.png?raw=true",
+    og_type = "website",
+    og_author = c("Group 11"),
+  )
 ```
+ 
+Hi! <span class="wave">👋</span> We are Group 11 for SMU MITB Visual Analytics and Apllication course
+
+**About This Project**
 
 Anticipating rapid growth, the city of Engagement, Ohio USA is doing a participatory urban planning exercise to understand the current state of the city and identify opportunities for future growth. About 1000 representative residents in this modest-sized city have agreed to provide data using the city’s urban planning app, which records the places they visit, their spending, and their purchases, among other things. From these volunteers, the city will have data to assist with their major community revitalization efforts.
   
-  Economic considers the financial health of the city. Over time, are businesses growing or shrinking? How are people changing jobs? Are standards of living improving or declining over time?
+Economic considers the financial health of the city. Over time, are businesses growing or shrinking? How are people changing jobs? Are standards of living improving or declining over time?
 
-  Consider the financial status of Engagement’s businesses and residents, and use visual analytic techniques to address these questions.
+Consider the financial status of Engagement’s businesses and residents, and use visual analytic techniques to address these questions.
 
-  - Over the period covered by the dataset, which businesses appear to be more prosperous? Which appear to be struggling?
+- Over the period covered by the dataset, which businesses appear to be more prosperous? Which appear to be struggling?
   
-  - How does the financial health of the residents change over the period covered by the dataset? How do wages compare to the overall cost of living in Engagement? Are there groups that appear to exhibit similar patterns?
+- How does the financial health of the residents change over the period covered by the dataset? How do wages compare to the overall cost of living in Engagement? Are there groups that appear to exhibit similar patterns?
   
-  - Describe the health of the various employers within the city limits. What employment patterns do you observe?
-
+- Describe the health of the various employers within the city limits. What employment patterns do you observe?

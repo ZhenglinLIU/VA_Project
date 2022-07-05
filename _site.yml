@@ -9,12 +9,12 @@ navbar:
     href: https://www.rstudio.com
   search: true
   right:
-    - text: "OVERVIEW"
+    - text: "PROPOSAL"
       href: proposal_1.html
     - text: "USER GUIDE"
       href: about.html
     - text: "APP"
-      href: app.html
+      href: https://zhenglinliu9711.shinyapps.io/Vast_Challenge/?_ga=2.212974484.1019705079.1656816716-929220095.1654930293
     - text: "POSTER"
       href: poster.html
     - text: "ABOUT US"

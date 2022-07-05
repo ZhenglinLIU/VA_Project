@@ -1,5 +1,5 @@
 ---
-title: "OVERVIEW"
+title: "Overview"
 description: |
   Vast Challenge 2022: Challenge 3 - Economic
 author:
